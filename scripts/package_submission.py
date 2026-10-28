@@ -63,7 +63,8 @@ def main():
         raise SystemExit('Unexpected archive signature')
     if archive.stat().st_size > 200_000_000:
         raise SystemExit('Archive exceeds the 200 MB submission limit')
-    listing = subprocess.check_output([args.rar, 'lb', '-idq', str(archive)], text=True, errors='replace')
+    # RAR 6 treats -idq as suppressing even the bare listing, so omit it here.
+    listing = subprocess.check_output([args.rar, 'lb', str(archive)], text=True, errors='replace')
     members = {line.replace('\\', '/').strip() for line in listing.splitlines() if line.strip()}
     expected = {package_root.name + '/' + p.relative_to(ROOT).as_posix() for p in files}
     # Directory entries are permitted; every regular source file must be present.

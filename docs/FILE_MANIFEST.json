@@ -681,8 +681,8 @@
       "bytes": 684
     },
     "scripts/package_submission.py": {
-      "sha256": "bc9708170b2e1c2ef50239d944e90450ff0477fc847a055429feaf14b4b5d1ab",
-      "bytes": 4904
+      "sha256": "47a9fcc3df4d9008b26fe545966bb9d21305345eb98804a72992e9b198a13847",
+      "bytes": 4975
     },
     "scripts/setup-servo-ui.ps1": {
       "sha256": "62607c6fe4bf537d2f0c4dc27564db11d0e8620c24b849523321bab9d3c78277",
