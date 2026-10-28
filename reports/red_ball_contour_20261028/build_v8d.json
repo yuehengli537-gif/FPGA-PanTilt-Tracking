@@ -1,0 +1,727 @@
+{
+  "build_directory": "C:\\Users\\Lenovo\\Desktop\\gaoyun\\.fpga-local\\shape_20261028_v8d_diag",
+  "variant": {
+    "camera_uart": true,
+    "shape_diagnostic": true,
+    "show_servo_debug": 2,
+    "servo_enabled_at_boot": false,
+    "servo_enabled": false,
+    "servo_diagnostics": false,
+    "servo_profile": "Tracking",
+    "servo_axes": "Both",
+    "reverse_pan": false,
+    "reverse_tilt": false,
+    "limited_pan_min_us": 1460,
+    "limited_pan_max_us": 1540,
+    "limited_tilt_min_us": 1460,
+    "limited_tilt_max_us": 1540,
+    "source_project": "C:\\Users\\Lenovo\\Desktop\\gaoyun\\Tang-Primer-20k-camera-red-ball"
+  },
+  "counts": {
+    "Numbers of Setup Violated Endpoints": 0,
+    "Numbers of Hold Violated Endpoints": 22
+  },
+  "resources": {
+    "Logic": "16174/20736",
+    "Register": "11513/16173",
+    "CLS": "9566/10368",
+    "BSRAM": "31/46",
+    "DSP": "3.75/24"
+  },
+  "minimum_setup_slack_ns": 0.188,
+  "minimum_removal_slack_ns": -1.161,
+  "worst_setup_paths": [
+    [
+      "1",
+      "0.188",
+      "Video_Frame_Buffer_Top_inst/vfb_ddr3_wrapper_inst/u0_dma_frame_buffer/u_dma_write_ctrl/fifo_write_inst/Big.wbin_3_s0/Q",
+      "Video_Frame_Buffer_Top_inst/vfb_ddr3_wrapper_inst/u0_dma_frame_buffer/u_dma_write_ctrl/fifo_write_inst/Big.mem_Big.mem_0_3_s/ADA[5]",
+      "cmos_pclk:[R]",
+      "cmos_pclk:[R]",
+      "5.880",
+      "0.000",
+      "5.657"
+    ],
+    [
+      "2",
+      "0.223",
+      "red_ball_demo.tracking/detector/desc_right_0_s0/Q",
+      "red_ball_demo.tracking/detector/a_matches_1_s0/D",
+      "clk_74_25:[R]",
+      "clk_74_25:[R]",
+      "13.468",
+      "0.000",
+      "13.210"
+    ],
+    [
+      "3",
+      "0.363",
+      "Video_Frame_Buffer_Top_inst/vfb_ddr3_wrapper_inst/u0_dma_frame_buffer/u_dma_write_ctrl/fifo_write_inst/Big.wbin_3_s0/Q",
+      "Video_Frame_Buffer_Top_inst/vfb_ddr3_wrapper_inst/u0_dma_frame_buffer/u_dma_write_ctrl/fifo_write_inst/Full_s0/D",
+      "cmos_pclk:[R]",
+      "cmos_pclk:[R]",
+      "5.880",
+      "0.000",
+      "5.482"
+    ],
+    [
+      "4",
+      "1.031",
+      "Video_Frame_Buffer_Top_inst/vfb_ddr3_wrapper_inst/u0_dma_frame_buffer/u_dma_write_ctrl/fifo_write_inst/Big.wbin_3_s0/Q",
+      "Video_Frame_Buffer_Top_inst/vfb_ddr3_wrapper_inst/u0_dma_frame_buffer/u_dma_write_ctrl/fifo_write_inst/Big.wptr_6_s1/D",
+      "cmos_pclk:[R]",
+      "cmos_pclk:[R]",
+      "5.880",
+      "0.000",
+      "4.814"
+    ],
+    [
+      "5",
+      "1.046",
+      "Video_Frame_Buffer_Top_inst/vfb_ddr3_wrapper_inst/u0_dma_frame_buffer/u_dma_write_ctrl/fifo_write_inst/Big.wbin_3_s0/Q",
+      "Video_Frame_Buffer_Top_inst/vfb_ddr3_wrapper_inst/u0_dma_frame_buffer/u_dma_write_ctrl/fifo_write_inst/Big.wbin_7_s0/D",
+      "cmos_pclk:[R]",
+      "cmos_pclk:[R]",
+      "5.880",
+      "0.000",
+      "4.799"
+    ],
+    [
+      "6",
+      "1.091",
+      "red_ball_demo.tracking/lock_filter/y_q_10_s0/Q",
+      "red_ball_demo.tracking/lock_filter/candidate_x_7_s1/CE",
+      "clk_74_25:[R]",
+      "clk_74_25:[R]",
+      "13.468",
+      "0.000",
+      "12.342"
+    ],
+    [
+      "7",
+      "1.091",
+      "red_ball_demo.tracking/lock_filter/y_q_10_s0/Q",
+      "red_ball_demo.tracking/lock_filter/candidate_x_8_s1/CE",
+      "clk_74_25:[R]",
+      "clk_74_25:[R]",
+      "13.468",
+      "0.000",
+      "12.342"
+    ],
+    [
+      "8",
+      "1.132",
+      "red_ball_demo.tracking/lock_filter/y_q_10_s0/Q",
+      "red_ball_demo.tracking/lock_filter/candidate_x_5_s1/CE",
+      "clk_74_25:[R]",
+      "clk_74_25:[R]",
+      "13.468",
+      "0.000",
+      "12.301"
+    ]
+  ],
+  "removal_paths": [
+    [
+      "1",
+      "-1.161",
+      "u_key_debounce/key_1_s0/Q",
+      "cmos_reset_gen_m0/cnt_21_s0/CLEAR",
+      "clk:[R]",
+      "u_clk_init/u_tmds_rpll/rpll_inst/CLKOUTD.default_gen_clk:[R]",
+      "0.000",
+      "-2.415",
+      "1.300"
+    ],
+    [
+      "2",
+      "-1.161",
+      "u_key_debounce/key_1_s0/Q",
+      "cmos_reset_gen_m0/cnt_18_s0/CLEAR",
+      "clk:[R]",
+      "u_clk_init/u_tmds_rpll/rpll_inst/CLKOUTD.default_gen_clk:[R]",
+      "0.000",
+      "-2.415",
+      "1.300"
+    ],
+    [
+      "3",
+      "-1.161",
+      "u_key_debounce/key_1_s0/Q",
+      "cmos_reset_gen_m0/cnt_19_s0/CLEAR",
+      "clk:[R]",
+      "u_clk_init/u_tmds_rpll/rpll_inst/CLKOUTD.default_gen_clk:[R]",
+      "0.000",
+      "-2.415",
+      "1.300"
+    ],
+    [
+      "4",
+      "-1.161",
+      "u_key_debounce/key_1_s0/Q",
+      "cmos_reset_gen_m0/cnt_20_s0/CLEAR",
+      "clk:[R]",
+      "u_clk_init/u_tmds_rpll/rpll_inst/CLKOUTD.default_gen_clk:[R]",
+      "0.000",
+      "-2.415",
+      "1.300"
+    ],
+    [
+      "5",
+      "-1.027",
+      "u_key_debounce/key_1_s0/Q",
+      "cmos_reset_gen_m0/cnt_1_s0/CLEAR",
+      "clk:[R]",
+      "u_clk_init/u_tmds_rpll/rpll_inst/CLKOUTD.default_gen_clk:[R]",
+      "0.000",
+      "-2.415",
+      "1.434"
+    ],
+    [
+      "6",
+      "-1.027",
+      "u_key_debounce/key_1_s0/Q",
+      "cmos_reset_gen_m0/cnt_2_s0/CLEAR",
+      "clk:[R]",
+      "u_clk_init/u_tmds_rpll/rpll_inst/CLKOUTD.default_gen_clk:[R]",
+      "0.000",
+      "-2.415",
+      "1.434"
+    ],
+    [
+      "7",
+      "-1.027",
+      "u_key_debounce/key_1_s0/Q",
+      "cmos_reset_gen_m0/cnt_3_s0/CLEAR",
+      "clk:[R]",
+      "u_clk_init/u_tmds_rpll/rpll_inst/CLKOUTD.default_gen_clk:[R]",
+      "0.000",
+      "-2.415",
+      "1.434"
+    ],
+    [
+      "8",
+      "-1.027",
+      "u_key_debounce/key_1_s0/Q",
+      "cmos_reset_gen_m0/cnt_4_s0/CLEAR",
+      "clk:[R]",
+      "u_clk_init/u_tmds_rpll/rpll_inst/CLKOUTD.default_gen_clk:[R]",
+      "0.000",
+      "-2.415",
+      "1.434"
+    ],
+    [
+      "9",
+      "-1.027",
+      "u_key_debounce/key_1_s0/Q",
+      "cmos_reset_gen_m0/cnt_5_s0/CLEAR",
+      "clk:[R]",
+      "u_clk_init/u_tmds_rpll/rpll_inst/CLKOUTD.default_gen_clk:[R]",
+      "0.000",
+      "-2.415",
+      "1.434"
+    ],
+    [
+      "10",
+      "-1.027",
+      "u_key_debounce/key_1_s0/Q",
+      "cmos_reset_gen_m0/cnt_12_s0/CLEAR",
+      "clk:[R]",
+      "u_clk_init/u_tmds_rpll/rpll_inst/CLKOUTD.default_gen_clk:[R]",
+      "0.000",
+      "-2.415",
+      "1.434"
+    ],
+    [
+      "11",
+      "-1.027",
+      "u_key_debounce/key_1_s0/Q",
+      "cmos_reset_gen_m0/cnt_13_s0/CLEAR",
+      "clk:[R]",
+      "u_clk_init/u_tmds_rpll/rpll_inst/CLKOUTD.default_gen_clk:[R]",
+      "0.000",
+      "-2.415",
+      "1.434"
+    ],
+    [
+      "12",
+      "-1.027",
+      "u_key_debounce/key_1_s0/Q",
+      "cmos_reset_gen_m0/cnt_14_s0/CLEAR",
+      "clk:[R]",
+      "u_clk_init/u_tmds_rpll/rpll_inst/CLKOUTD.default_gen_clk:[R]",
+      "0.000",
+      "-2.415",
+      "1.434"
+    ],
+    [
+      "13",
+      "-1.027",
+      "u_key_debounce/key_1_s0/Q",
+      "cmos_reset_gen_m0/cnt_15_s0/CLEAR",
+      "clk:[R]",
+      "u_clk_init/u_tmds_rpll/rpll_inst/CLKOUTD.default_gen_clk:[R]",
+      "0.000",
+      "-2.415",
+      "1.434"
+    ],
+    [
+      "14",
+      "-1.027",
+      "u_key_debounce/key_1_s0/Q",
+      "cmos_reset_gen_m0/cnt_16_s0/CLEAR",
+      "clk:[R]",
+      "u_clk_init/u_tmds_rpll/rpll_inst/CLKOUTD.default_gen_clk:[R]",
+      "0.000",
+      "-2.415",
+      "1.434"
+    ],
+    [
+      "15",
+      "-1.027",
+      "u_key_debounce/key_1_s0/Q",
+      "cmos_reset_gen_m0/cnt_17_s0/CLEAR",
+      "clk:[R]",
+      "u_clk_init/u_tmds_rpll/rpll_inst/CLKOUTD.default_gen_clk:[R]",
+      "0.000",
+      "-2.415",
+      "1.434"
+    ],
+    [
+      "16",
+      "-1.024",
+      "u_key_debounce/key_1_s0/Q",
+      "cmos_reset_gen_m0/cnt_6_s0/CLEAR",
+      "clk:[R]",
+      "u_clk_init/u_tmds_rpll/rpll_inst/CLKOUTD.default_gen_clk:[R]",
+      "0.000",
+      "-2.415",
+      "1.437"
+    ],
+    [
+      "17",
+      "-1.024",
+      "u_key_debounce/key_1_s0/Q",
+      "cmos_reset_gen_m0/cnt_7_s0/CLEAR",
+      "clk:[R]",
+      "u_clk_init/u_tmds_rpll/rpll_inst/CLKOUTD.default_gen_clk:[R]",
+      "0.000",
+      "-2.415",
+      "1.437"
+    ],
+    [
+      "18",
+      "-1.024",
+      "u_key_debounce/key_1_s0/Q",
+      "cmos_reset_gen_m0/cnt_8_s0/CLEAR",
+      "clk:[R]",
+      "u_clk_init/u_tmds_rpll/rpll_inst/CLKOUTD.default_gen_clk:[R]",
+      "0.000",
+      "-2.415",
+      "1.437"
+    ],
+    [
+      "19",
+      "-1.024",
+      "u_key_debounce/key_1_s0/Q",
+      "cmos_reset_gen_m0/cnt_9_s0/CLEAR",
+      "clk:[R]",
+      "u_clk_init/u_tmds_rpll/rpll_inst/CLKOUTD.default_gen_clk:[R]",
+      "0.000",
+      "-2.415",
+      "1.437"
+    ],
+    [
+      "20",
+      "-1.024",
+      "u_key_debounce/key_1_s0/Q",
+      "cmos_reset_gen_m0/cnt_10_s0/CLEAR",
+      "clk:[R]",
+      "u_clk_init/u_tmds_rpll/rpll_inst/CLKOUTD.default_gen_clk:[R]",
+      "0.000",
+      "-2.415",
+      "1.437"
+    ],
+    [
+      "21",
+      "-1.024",
+      "u_key_debounce/key_1_s0/Q",
+      "cmos_reset_gen_m0/cnt_11_s0/CLEAR",
+      "clk:[R]",
+      "u_clk_init/u_tmds_rpll/rpll_inst/CLKOUTD.default_gen_clk:[R]",
+      "0.000",
+      "-2.415",
+      "1.437"
+    ],
+    [
+      "22",
+      "-0.776",
+      "u_key_debounce/key_1_s0/Q",
+      "cmos_reset_gen_m0/cnt_0_s0/CLEAR",
+      "clk:[R]",
+      "u_clk_init/u_tmds_rpll/rpll_inst/CLKOUTD.default_gen_clk:[R]",
+      "0.000",
+      "-2.415",
+      "1.685"
+    ],
+    [
+      "23",
+      "0.453",
+      "red_ball_demo.servo_reset_sync_1_s0/Q",
+      "red_ball_demo.camera_guard/age_23_s1/CLEAR",
+      "clk_74_25:[R]",
+      "clk_74_25:[R]",
+      "0.000",
+      "0.000",
+      "0.464"
+    ],
+    [
+      "24",
+      "0.462",
+      "red_ball_demo.servo_reset_sync_1_s0/Q",
+      "red_ball_demo.camera_guard/age_4_s1/CLEAR",
+      "clk_74_25:[R]",
+      "clk_74_25:[R]",
+      "0.000",
+      "0.000",
+      "0.473"
+    ],
+    [
+      "25",
+      "0.462",
+      "red_ball_demo.servo_reset_sync_1_s0/Q",
+      "red_ball_demo.camera_guard/age_5_s1/CLEAR",
+      "clk_74_25:[R]",
+      "clk_74_25:[R]",
+      "0.000",
+      "0.000",
+      "0.473"
+    ]
+  ],
+  "source_comparisons": [
+    {
+      "source": "fpga\\src\\cmos_8_16bit.v",
+      "source_sha256": "f10c70147593f1f0151efeb26fee615f4e077a8067bb277d24d3b5ccc6590821",
+      "staged_sha256": "f10c70147593f1f0151efeb26fee615f4e077a8067bb277d24d3b5ccc6590821",
+      "expected_staged_matches": true,
+      "line_endings_normalized": true
+    },
+    {
+      "source": "fpga\\src\\lut_ov5640_rgb565_1280_720.v",
+      "source_sha256": "bc965c23309f02a170ae3b3645458a7d21b107bf5caa371b373e07c9f6ad12a0",
+      "staged_sha256": "bc965c23309f02a170ae3b3645458a7d21b107bf5caa371b373e07c9f6ad12a0",
+      "expected_staged_matches": true,
+      "line_endings_normalized": true
+    },
+    {
+      "source": "fpga\\src\\OV5640_HDMI720P.cst",
+      "source_sha256": "f649d011af3261a605f44ac1f5ea3c7b2f114a1790773db59517879cc63a9489",
+      "staged_sha256": "f649d011af3261a605f44ac1f5ea3c7b2f114a1790773db59517879cc63a9489",
+      "expected_staged_matches": true,
+      "line_endings_normalized": true
+    },
+    {
+      "source": "fpga\\src\\OV5640_HDMI720P.sdc",
+      "source_sha256": "c7fc579eae3c49dd3d918d0f2defb6ff597396f1c1241268b670e3de34d8ce4d",
+      "staged_sha256": "c7fc579eae3c49dd3d918d0f2defb6ff597396f1c1241268b670e3de34d8ce4d",
+      "expected_staged_matches": true,
+      "line_endings_normalized": true
+    },
+    {
+      "source": "fpga\\src\\syn_gen.v",
+      "source_sha256": "d2992929bd9763ca08d8d00e7227710599e6f4eee3b3d72d0ce357895aa86fb3",
+      "staged_sha256": "d2992929bd9763ca08d8d00e7227710599e6f4eee3b3d72d0ce357895aa86fb3",
+      "expected_staged_matches": true,
+      "line_endings_normalized": true
+    },
+    {
+      "source": "fpga\\src\\testpattern.v",
+      "source_sha256": "f5e9199434f702f76deeba864cf535a14e4ec6d51e104d596e39665130c1069c",
+      "staged_sha256": "f5e9199434f702f76deeba864cf535a14e4ec6d51e104d596e39665130c1069c",
+      "expected_staged_matches": true,
+      "line_endings_normalized": true
+    },
+    {
+      "source": "fpga\\src\\top.v",
+      "source_sha256": "ba63be3a9acb0dd3687eead8d2e5c46e19f1e0d6a5e35e5bc505f7b441e38181",
+      "staged_sha256": "f78c635dcf74750a7702f4a7773f695bbee236b2fa8505cddd5bd6ab1da7fbdc",
+      "expected_staged_matches": true,
+      "line_endings_normalized": true
+    },
+    {
+      "source": "fpga\\src\\vga_timing.v",
+      "source_sha256": "973594877538aa89e82829d80ded2b21bbdcbe06d2c242f9d7bdfbb1661d4e53",
+      "staged_sha256": "973594877538aa89e82829d80ded2b21bbdcbe06d2c242f9d7bdfbb1661d4e53",
+      "expected_staged_matches": true,
+      "line_endings_normalized": true
+    },
+    {
+      "source": "fpga\\src\\video_timing_check.v",
+      "source_sha256": "ba2324f49a4c52ebc212dfb399e9e8afbf2c8bbfa3503d991d02420483d9647b",
+      "staged_sha256": "ba2324f49a4c52ebc212dfb399e9e8afbf2c8bbfa3503d991d02420483d9647b",
+      "expected_staged_matches": true,
+      "line_endings_normalized": true
+    },
+    {
+      "source": "fpga\\src\\ddr3_memory_interface\\DDR3MI.v",
+      "source_sha256": "a60a88a61192d72d770981550bfdb19008d8c77483bf83bacfb155f9dbbc9761",
+      "staged_sha256": "a60a88a61192d72d770981550bfdb19008d8c77483bf83bacfb155f9dbbc9761",
+      "expected_staged_matches": true,
+      "line_endings_normalized": true
+    },
+    {
+      "source": "fpga\\src\\dvi_tx\\DVI_TX_Top.v",
+      "source_sha256": "d8aa738a3fffb038f4cd127a026410a9e9a99d525b441abbbd8a21ce8b4d1929",
+      "staged_sha256": "d8aa738a3fffb038f4cd127a026410a9e9a99d525b441abbbd8a21ce8b4d1929",
+      "expected_staged_matches": true,
+      "line_endings_normalized": true
+    },
+    {
+      "source": "fpga\\src\\fifo_hs\\video_fifo.v",
+      "source_sha256": "21caa9d6c1dad70a6e8ecbce40bfe321a05538962b245a233501a4e48d3a4bcd",
+      "staged_sha256": "21caa9d6c1dad70a6e8ecbce40bfe321a05538962b245a233501a4e48d3a4bcd",
+      "expected_staged_matches": true,
+      "line_endings_normalized": true
+    },
+    {
+      "source": "fpga\\src\\gowin_rpll\\cmos_pll.v",
+      "source_sha256": "045692221e9c22b049401ae357a02b9dd3eb2c91ed4daaca733931d0b94443a4",
+      "staged_sha256": "045692221e9c22b049401ae357a02b9dd3eb2c91ed4daaca733931d0b94443a4",
+      "expected_staged_matches": true,
+      "line_endings_normalized": true
+    },
+    {
+      "source": "fpga\\src\\gowin_rpll\\mem_pll.v",
+      "source_sha256": "8018ff52031649936c8dccf8ce9d7b12d61fd88872f5976a8dcf342c06916b82",
+      "staged_sha256": "8018ff52031649936c8dccf8ce9d7b12d61fd88872f5976a8dcf342c06916b82",
+      "expected_staged_matches": true,
+      "line_endings_normalized": true
+    },
+    {
+      "source": "fpga\\src\\gowin_rpll\\TMDS_rPLL.v",
+      "source_sha256": "2564c71f6d38233c479718fa83d341c4c9c09ab1d0f8ba98a314d43bac31ac9c",
+      "staged_sha256": "2564c71f6d38233c479718fa83d341c4c9c09ab1d0f8ba98a314d43bac31ac9c",
+      "expected_staged_matches": true,
+      "line_endings_normalized": true
+    },
+    {
+      "source": "fpga\\src\\i2c_master\\i2c_config.v",
+      "source_sha256": "e95bb142fb8a15e3d209ce5b2c5df5d9d3f43878674b6ce00018e0e46d5c56ec",
+      "staged_sha256": "e95bb142fb8a15e3d209ce5b2c5df5d9d3f43878674b6ce00018e0e46d5c56ec",
+      "expected_staged_matches": true,
+      "line_endings_normalized": true
+    },
+    {
+      "source": "fpga\\src\\i2c_master\\i2c_master_bit_ctrl.v",
+      "source_sha256": "f6c83a05289cf244bdca6e0d209eea9a2e844d02165688020d64352c34966d0f",
+      "staged_sha256": "f6c83a05289cf244bdca6e0d209eea9a2e844d02165688020d64352c34966d0f",
+      "expected_staged_matches": true,
+      "line_endings_normalized": true
+    },
+    {
+      "source": "fpga\\src\\i2c_master\\i2c_master_byte_ctrl.v",
+      "source_sha256": "3ed9e3b02891e553f534125c7534304a6c5f0c1f672df240f1c225fbabd4da7b",
+      "staged_sha256": "3ed9e3b02891e553f534125c7534304a6c5f0c1f672df240f1c225fbabd4da7b",
+      "expected_staged_matches": true,
+      "line_endings_normalized": true
+    },
+    {
+      "source": "fpga\\src\\i2c_master\\i2c_master_defines.v",
+      "source_sha256": "6cf6f251d95f05929caa067d9d4eba350eaa58e0945127828eee1b53a5057e0a",
+      "staged_sha256": "6cf6f251d95f05929caa067d9d4eba350eaa58e0945127828eee1b53a5057e0a",
+      "expected_staged_matches": true,
+      "line_endings_normalized": true
+    },
+    {
+      "source": "fpga\\src\\i2c_master\\i2c_master_top.v",
+      "source_sha256": "080584e57df1097057316bf8caa584f5c34c1bb74dc137a6b094af7f034a162a",
+      "staged_sha256": "080584e57df1097057316bf8caa584f5c34c1bb74dc137a6b094af7f034a162a",
+      "expected_staged_matches": true,
+      "line_endings_normalized": true
+    },
+    {
+      "source": "fpga\\src\\i2c_master\\timescale.v",
+      "source_sha256": "8ecd153830822ef5f1dd0b352067f72d8b08bbc3e8d360cc2b38175cd07f8d33",
+      "staged_sha256": "8ecd153830822ef5f1dd0b352067f72d8b08bbc3e8d360cc2b38175cd07f8d33",
+      "expected_staged_matches": true,
+      "line_endings_normalized": true
+    },
+    {
+      "source": "fpga\\src\\image_processing\\camera_servo_uart.v",
+      "source_sha256": "7738485e79de7d9d40bb1777c73efed6a5e169d8a8b4f9376b70f8680aaf440f",
+      "staged_sha256": "7738485e79de7d9d40bb1777c73efed6a5e169d8a8b4f9376b70f8680aaf440f",
+      "expected_staged_matches": true,
+      "line_endings_normalized": true
+    },
+    {
+      "source": "fpga\\src\\image_processing\\display_point_ops.v",
+      "source_sha256": "066a1608bcad11ba9510818563b5b48252b571731d3052407ac186d05f2265d3",
+      "staged_sha256": "066a1608bcad11ba9510818563b5b48252b571731d3052407ac186d05f2265d3",
+      "expected_staged_matches": true,
+      "line_endings_normalized": true
+    },
+    {
+      "source": "fpga\\src\\image_processing\\display_spatial_ops.v",
+      "source_sha256": "1c7d2cecb948b952d378f8839149e45d247539ef8202d7785c683a946f2cd9dc",
+      "staged_sha256": "1c7d2cecb948b952d378f8839149e45d247539ef8202d7785c683a946f2cd9dc",
+      "expected_staged_matches": true,
+      "line_endings_normalized": true
+    },
+    {
+      "source": "fpga\\src\\image_processing\\pan_tilt_controller.v",
+      "source_sha256": "e7e28992b2c15a26b75e693e7ba66648746f27c80f425a2cb5a7d85e3c4e75bc",
+      "staged_sha256": "e7e28992b2c15a26b75e693e7ba66648746f27c80f425a2cb5a7d85e3c4e75bc",
+      "expected_staged_matches": true,
+      "line_endings_normalized": true
+    },
+    {
+      "source": "fpga\\src\\image_processing\\red_ball_detector.v",
+      "source_sha256": "dfc1c24219fba8da6460ea2f98a20769cfdb17799e4c8a44ff8bdbeb86bab688",
+      "staged_sha256": "dfc1c24219fba8da6460ea2f98a20769cfdb17799e4c8a44ff8bdbeb86bab688",
+      "expected_staged_matches": true,
+      "line_endings_normalized": true
+    },
+    {
+      "source": "fpga\\src\\image_processing\\red_ball_lock.v",
+      "source_sha256": "4f24d872afee9882746640227f280b019560914d700a0840bb68c928a20a3747",
+      "staged_sha256": "4f24d872afee9882746640227f280b019560914d700a0840bb68c928a20a3747",
+      "expected_staged_matches": true,
+      "line_endings_normalized": true
+    },
+    {
+      "source": "fpga\\src\\image_processing\\red_ball_overlay.v",
+      "source_sha256": "47c670304892a2aec41e414d56db980a136900cb480c1d39bf3ee1312ce4f2a2",
+      "staged_sha256": "47c670304892a2aec41e414d56db980a136900cb480c1d39bf3ee1312ce4f2a2",
+      "expected_staged_matches": true,
+      "line_endings_normalized": true
+    },
+    {
+      "source": "fpga\\src\\image_processing\\red_ball_tracking.v",
+      "source_sha256": "85435a989f15092ec4a0788c95002eae8f9de78d2c3c7b117d67c665f4bd488c",
+      "staged_sha256": "85435a989f15092ec4a0788c95002eae8f9de78d2c3c7b117d67c665f4bd488c",
+      "expected_staged_matches": true,
+      "line_endings_normalized": true
+    },
+    {
+      "source": "fpga\\src\\image_processing\\servo_measurement_cdc.v",
+      "source_sha256": "837b15c545ec77728592aa610538d62b20b843665d7b8fcd0d0509d65c5245b0",
+      "staged_sha256": "837b15c545ec77728592aa610538d62b20b843665d7b8fcd0d0509d65c5245b0",
+      "expected_staged_matches": true,
+      "line_endings_normalized": true
+    },
+    {
+      "source": "fpga\\src\\misc\\clk_init.v",
+      "source_sha256": "978e3483abcea9a4ed122d58ba3e6eae780501ed370e88deec36acaf0ee23705",
+      "staged_sha256": "978e3483abcea9a4ed122d58ba3e6eae780501ed370e88deec36acaf0ee23705",
+      "expected_staged_matches": true,
+      "line_endings_normalized": true
+    },
+    {
+      "source": "fpga\\src\\misc\\cmos_reset_gen.v",
+      "source_sha256": "c565c2cc84eed7fa306a4b4d6d2bac39322c334cbabbc0c9fa710f9562c3d7c6",
+      "staged_sha256": "c565c2cc84eed7fa306a4b4d6d2bac39322c334cbabbc0c9fa710f9562c3d7c6",
+      "expected_staged_matches": true,
+      "line_endings_normalized": true
+    },
+    {
+      "source": "fpga\\src\\misc\\key_debounce.v",
+      "source_sha256": "95abc50248da951003e30bafaacba2ec883494ee2ca5e0dd148df765285b1139",
+      "staged_sha256": "95abc50248da951003e30bafaacba2ec883494ee2ca5e0dd148df765285b1139",
+      "expected_staged_matches": true,
+      "line_endings_normalized": true
+    },
+    {
+      "source": "fpga\\src\\sccb_master\\sccb_init_top.v",
+      "source_sha256": "612c79cafd332a39e8a7ec00d9b181e5321dc74e06bbe594b553b16b7e0c1f5c",
+      "staged_sha256": "612c79cafd332a39e8a7ec00d9b181e5321dc74e06bbe594b553b16b7e0c1f5c",
+      "expected_staged_matches": true,
+      "line_endings_normalized": true
+    },
+    {
+      "source": "fpga\\src\\sccb_master\\sccb_sender.v",
+      "source_sha256": "d1ff2e8ffefc9d93e90355248498aced702757b0560f8b4757233858f0d34506",
+      "staged_sha256": "d1ff2e8ffefc9d93e90355248498aced702757b0560f8b4757233858f0d34506",
+      "expected_staged_matches": true,
+      "line_endings_normalized": true
+    },
+    {
+      "source": "fpga\\src\\video_frame_buffer\\Video_Frame_Buffer_Top.v",
+      "source_sha256": "64322a9f8a0cfef72c1a09606542fe447361ac625b0bef54558b08ed810c5feb",
+      "staged_sha256": "64322a9f8a0cfef72c1a09606542fe447361ac625b0bef54558b08ed810c5feb",
+      "expected_staged_matches": true,
+      "line_endings_normalized": true
+    },
+    {
+      "source": "fpga\\src\\i2c_master_gw\\i2c_master\\i2c_master_gw.v",
+      "source_sha256": "34059e4e260921320772247629e06bdc9bd6cd0a05662a3828095b3e8e00127f",
+      "staged_sha256": "34059e4e260921320772247629e06bdc9bd6cd0a05662a3828095b3e8e00127f",
+      "expected_staged_matches": true,
+      "line_endings_normalized": true
+    },
+    {
+      "source": "algorithm_sim\\rtl\\brightness_adjust.v",
+      "source_sha256": "14bbab30a76de8b1ee95513087588aa80ff0f70415cd871ca2068ef17ca6735c",
+      "staged_sha256": "14bbab30a76de8b1ee95513087588aa80ff0f70415cd871ca2068ef17ca6735c",
+      "expected_staged_matches": true
+    },
+    {
+      "source": "algorithm_sim\\rtl\\gaussian_3x3.v",
+      "source_sha256": "cabecb207f55610956f423d9898d04a297d8d12d4a6ef3f3dbe06bfa1f11984a",
+      "staged_sha256": "cabecb207f55610956f423d9898d04a297d8d12d4a6ef3f3dbe06bfa1f11984a",
+      "expected_staged_matches": true
+    },
+    {
+      "source": "algorithm_sim\\rtl\\rgb565_to_gray.v",
+      "source_sha256": "f6b581c9ddd88af7acc1d20dee408c2d8472505c59b82ecc0ff097009af98c2c",
+      "staged_sha256": "f6b581c9ddd88af7acc1d20dee408c2d8472505c59b82ecc0ff097009af98c2c",
+      "expected_staged_matches": true
+    },
+    {
+      "source": "servo_uart\\src\\servo_uart_control.v",
+      "source_sha256": "a698cb6edaa3add31c529e08e0f00303a978067eeddb333941ace1d07a43d300",
+      "staged_sha256": "a698cb6edaa3add31c529e08e0f00303a978067eeddb333941ace1d07a43d300",
+      "expected_staged_matches": true
+    },
+    {
+      "source": "algorithm_sim\\rtl\\sobel_3x3.v",
+      "source_sha256": "297d4422ef1f64422c266c74891a12e84e207dddf55cba065821bed3b1d6f19e",
+      "staged_sha256": "297d4422ef1f64422c266c74891a12e84e207dddf55cba065821bed3b1d6f19e",
+      "expected_staged_matches": true
+    },
+    {
+      "source": "algorithm_sim\\rtl\\spatial_filter_top.v",
+      "source_sha256": "3b0c2798a6d0dbc243b940d081e1c8d017bf86515d6edd7b79ffdef308622ecc",
+      "staged_sha256": "3b0c2798a6d0dbc243b940d081e1c8d017bf86515d6edd7b79ffdef308622ecc",
+      "expected_staged_matches": true
+    },
+    {
+      "source": "algorithm_sim\\rtl\\stream_delay.v",
+      "source_sha256": "f72a1161917040f0d9ec49cd15f71f8d2a0aa36836a552327c4176b794c08633",
+      "staged_sha256": "f72a1161917040f0d9ec49cd15f71f8d2a0aa36836a552327c4176b794c08633",
+      "expected_staged_matches": true
+    },
+    {
+      "source": "algorithm_sim\\rtl\\stream_window_3x3.v",
+      "source_sha256": "8ea0cf7b16e32ce6eeb5aee6ccd2049ba4754c54e1a5fb4e967b6129ed2a9b14",
+      "staged_sha256": "8ea0cf7b16e32ce6eeb5aee6ccd2049ba4754c54e1a5fb4e967b6129ed2a9b14",
+      "expected_staged_matches": true
+    },
+    {
+      "source": "servo_uart\\src\\uart_rx.v",
+      "source_sha256": "3d2ff26cbd217ea5f3e01377de07423aceba175a3a28c5a908ac14d1abf4854e",
+      "staged_sha256": "3d2ff26cbd217ea5f3e01377de07423aceba175a3a28c5a908ac14d1abf4854e",
+      "expected_staged_matches": true
+    },
+    {
+      "source": "servo_uart\\src\\uart_tx.v",
+      "source_sha256": "14ef4044d0825898e34e64396605bff418147390298aea4cc026487abbaebe0d",
+      "staged_sha256": "14ef4044d0825898e34e64396605bff418147390298aea4cc026487abbaebe0d",
+      "expected_staged_matches": true
+    }
+  ],
+  "source_matches": true,
+  "bitstream_sha256": "bec75258735164b027cc1262cc8fb56b59b3e12350bf323288fb8ffc85606456",
+  "flash_written": false,
+  "all_timing_passed": false,
+  "known_reset_removal_only": true,
+  "eligible_for_sram_test": true
+}

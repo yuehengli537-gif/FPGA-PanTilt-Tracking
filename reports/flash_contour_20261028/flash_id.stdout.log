@@ -1,0 +1,7 @@
+ Target Cable: USB Debugger A/0/None/null@0.5MHz
+ Target Device: GW2A-18C(0x0000081B)
+ Operation "exFlash Detect ID" for device#1...
+ Detected Flash id: 0x0B4017!
+ Finished.
+ Cost 0.23 second(s)
+  

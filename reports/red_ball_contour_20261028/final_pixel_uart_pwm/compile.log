@@ -1,0 +1,9 @@
+warning: Some design elements have no explicit time unit and/or
+       : time precision. This may cause confusing timing results.
+       : Affected design elements are:
+       :   -- module camera_servo_uart declared here: C:\Users\Lenovo\Desktop\gaoyun\Tang-Primer-20k-camera-red-ball\fpga\src\image_processing\camera_servo_uart.v:5
+       :   -- module servo_measurement_cdc declared here: C:\Users\Lenovo\Desktop\gaoyun\Tang-Primer-20k-camera-red-ball\fpga\src\image_processing\servo_measurement_cdc.v:6
+       :   -- module servo_uart_control declared here: C:\Users\Lenovo\Desktop\gaoyun\Tang-Primer-20k-camera-red-ball\servo_uart\src\servo_uart_control.v:3
+       :   -- module uart_rx declared here: C:\Users\Lenovo\Desktop\gaoyun\Tang-Primer-20k-camera-red-ball\servo_uart\src\uart_rx.v:2
+       :   -- module uart_tx declared here: C:\Users\Lenovo\Desktop\gaoyun\Tang-Primer-20k-camera-red-ball\servo_uart\src\uart_tx.v:2
+C:\Users\Lenovo\Desktop\gaoyun\Tang-Primer-20k-camera-red-ball\fpga\src\image_processing\red_ball_detector.v:209: warning: @* is sensitive to all 3 words in array 'bottom_edge'.

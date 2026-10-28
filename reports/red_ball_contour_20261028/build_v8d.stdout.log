@@ -1,0 +1,192 @@
+*** GOWIN Tcl Command Line Console  *** 
+Open project C:/Users/Lenovo/Desktop/gaoyun/.fpga-local/shape_20261028_v8d_diag/OV5640_HDMI720P.gprj finished
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\image_processing\camera_servo_uart.v'
+Analyzing Verilog file 'C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\image_processing\servo_measurement_cdc.v'
+Analyzing Verilog file 'C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\shared_algorithm\uart_rx.v'
+Analyzing Verilog file 'C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\shared_algorithm\uart_tx.v'
+Analyzing Verilog file 'C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\shared_algorithm\servo_uart_control.v'
+Analyzing Verilog file 'C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\image_processing\pan_tilt_controller.v'
+Analyzing Verilog file 'C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\image_processing\red_ball_detector.v'
+Analyzing Verilog file 'C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\image_processing\red_ball_lock.v'
+Analyzing Verilog file 'C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\image_processing\red_ball_overlay.v'
+Analyzing Verilog file 'C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\image_processing\red_ball_tracking.v'
+Analyzing Verilog file 'C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\shared_algorithm\rgb565_to_gray.v'
+Analyzing Verilog file 'C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\shared_algorithm\brightness_adjust.v'
+Analyzing Verilog file 'C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\image_processing\display_point_ops.v'
+Analyzing Verilog file 'C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\image_processing\display_spatial_ops.v'
+Analyzing Verilog file 'C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\shared_algorithm\stream_window_3x3.v'
+Analyzing Verilog file 'C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\shared_algorithm\gaussian_3x3.v'
+Analyzing Verilog file 'C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\shared_algorithm\sobel_3x3.v'
+Analyzing Verilog file 'C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\shared_algorithm\spatial_filter_top.v'
+Analyzing Verilog file 'C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\shared_algorithm\stream_delay.v'
+Analyzing Verilog file 'C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\cmos_8_16bit.v'
+Analyzing Verilog file 'C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\ddr3_memory_interface\DDR3MI.v'
+Analyzing Verilog file 'C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\dvi_tx\DVI_TX_Top.v'
+Analyzing Verilog file 'C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\fifo_hs\video_fifo.v'
+Analyzing Verilog file 'C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\gowin_rpll\TMDS_rPLL.v'
+Analyzing Verilog file 'C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\gowin_rpll\cmos_pll.v'
+Analyzing Verilog file 'C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\gowin_rpll\mem_pll.v'
+Analyzing Verilog file 'C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\i2c_master\i2c_config.v'
+Analyzing Verilog file 'C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\i2c_master\i2c_master_bit_ctrl.v'
+Analyzing included file 'C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\i2c_master\i2c_master_defines.v'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\i2c_master\i2c_master_bit_ctrl.v":141)
+Back to file 'C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\i2c_master\i2c_master_bit_ctrl.v'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\i2c_master\i2c_master_bit_ctrl.v":141)
+Analyzing Verilog file 'C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\i2c_master\i2c_master_byte_ctrl.v'
+Analyzing included file 'C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\i2c_master\i2c_master_defines.v'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\i2c_master\i2c_master_byte_ctrl.v":73)
+Back to file 'C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\i2c_master\i2c_master_byte_ctrl.v'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\i2c_master\i2c_master_byte_ctrl.v":73)
+Analyzing Verilog file 'C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\i2c_master\i2c_master_defines.v'
+Analyzing Verilog file 'C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\i2c_master\i2c_master_top.v'
+Analyzing Verilog file 'C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\i2c_master\timescale.v'
+Analyzing Verilog file 'C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\i2c_master_gw\i2c_master\i2c_master_gw.v'
+Analyzing Verilog file 'C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\lut_ov5640_rgb565_1280_720.v'
+Analyzing Verilog file 'C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\misc\clk_init.v'
+Analyzing Verilog file 'C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\misc\cmos_reset_gen.v'
+Analyzing Verilog file 'C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\misc\key_debounce.v'
+Analyzing Verilog file 'C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\sccb_master\sccb_init_top.v'
+Analyzing Verilog file 'C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\sccb_master\sccb_sender.v'
+Analyzing Verilog file 'C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\syn_gen.v'
+Analyzing Verilog file 'C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\testpattern.v'
+Analyzing Verilog file 'C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\top.v'
+Undeclared symbol 'cmos_vs_div_out', assumed default net type 'wire'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\top.v":152)
+Undeclared symbol 'clk_37M', assumed default net type 'wire'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\top.v":195)
+Undeclared symbol 'sccb_clk', assumed default net type 'wire'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\top.v":222)
+Undeclared symbol 'cmos_16bit_wr', assumed default net type 'wire'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\top.v":360)
+Undeclared symbol 'init_calib_complete', assumed default net type 'wire'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\top.v":547)
+Analyzing Verilog file 'C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\vga_timing.v'
+Analyzing Verilog file 'C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\video_frame_buffer\Video_Frame_Buffer_Top.v'
+Analyzing Verilog file 'C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\video_timing_check.v'
+Compiling module 'top'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\top.v":1)
+Compiling module 'key_debounce'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\misc\key_debounce.v":28)
+Compiling module 'timing_check'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\video_timing_check.v":1)
+Compiling module 'clk_init'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\misc\clk_init.v":1)
+Compiling module 'mem_pll'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\gowin_rpll\mem_pll.v":11)
+Compiling module 'TMDS_rPLL'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\gowin_rpll\TMDS_rPLL.v":11)
+Compiling module 'cmos_reset_gen(USE_DSP_CNT=0)'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\misc\cmos_reset_gen.v":2)
+Compiling module 'lut_ov5640_rgb565(HActive=12'd1280,VActive=12'd720,HTotal=13'd1892,VTotal=13'd740,LUT_AW=4'b1000,USE_colour_bar=32'sb00000000000000000000000000000000)'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\lut_ov5640_rgb565_1280_720.v":1)
+Compiling module 'sccb_init_top(LUT_ADDR_WIDTH=32'b00000000000000000000000000001000,I2C_FAST_MODE=0,INPUT_CLK_FREQ=37000000)'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\sccb_master\sccb_init_top.v":1)
+Compiling module 'sccb_sender(I2C_FAST_MODE=0,I2C_ACK_MODE=0,INPUT_CLK_FREQ=37000000)'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\sccb_master\sccb_sender.v":1)
+Compiling module 'cmos_8_16bit'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\cmos_8_16bit.v":3)
+Compiling module 'vga_timing'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\vga_timing.v":1)
+Compiling module 'Video_Frame_Buffer_Top'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\video_frame_buffer\Video_Frame_Buffer_Top.v":3674)
+Compiling module '**'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\video_frame_buffer\Video_Frame_Buffer_Top.v":3673)
+Compiling module 'DDR3MI'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\ddr3_memory_interface\DDR3MI.v":16723)
+Compiling module '**'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\ddr3_memory_interface\DDR3MI.v":16722)
+Compiling module 'camera_frame_guard'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\image_processing\pan_tilt_controller.v":147)
+Compiling module 'red_ball_tracking(SHOW_SERVO_DEBUG=2)'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\image_processing\red_ball_tracking.v":4)
+Compiling module 'red_ball_detector(CANDIDATES=3)'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\image_processing\red_ball_detector.v":6)
+WARN  (EX3791) : Expression size 12 truncated to fit in target size 11("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\image_processing\red_ball_detector.v":68)
+WARN  (EX3791) : Expression size 13 truncated to fit in target size 11("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\image_processing\red_ball_detector.v":69)
+WARN  (EX3791) : Expression size 13 truncated to fit in target size 11("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\image_processing\red_ball_detector.v":69)
+WARN  (EX3791) : Expression size 12 truncated to fit in target size 11("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\image_processing\red_ball_detector.v":70)
+WARN  (EX3791) : Expression size 12 truncated to fit in target size 11("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\image_processing\red_ball_detector.v":70)
+WARN  (EX3791) : Expression size 14 truncated to fit in target size 12("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\image_processing\red_ball_detector.v":71)
+WARN  (EX3791) : Expression size 13 truncated to fit in target size 12("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\image_processing\red_ball_detector.v":71)
+WARN  (EX3791) : Expression size 14 truncated to fit in target size 12("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\image_processing\red_ball_detector.v":72)
+WARN  (EX3791) : Expression size 13 truncated to fit in target size 12("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\image_processing\red_ball_detector.v":72)
+WARN  (EX3791) : Expression size 19 truncated to fit in target size 12("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\image_processing\red_ball_detector.v":496)
+WARN  (EX3791) : Expression size 19 truncated to fit in target size 13("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\image_processing\red_ball_detector.v":496)
+Compiling module 'red_ball_lock'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\image_processing\red_ball_lock.v":4)
+Compiling module 'display_spatial_ops(DISPLAY_MODE=0)'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\image_processing\display_spatial_ops.v":4)
+WARN  (EX3791) : Expression size 4 truncated to fit in target size 3("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\image_processing\display_spatial_ops.v":32)
+WARN  (EX3791) : Expression size 17 truncated to fit in target size 16("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\image_processing\display_spatial_ops.v":36)
+Compiling module 'spatial_filter_top(WIDTH=1280,HEIGHT=720)'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\shared_algorithm\spatial_filter_top.v":4)
+Compiling module 'rgb565_to_gray'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\shared_algorithm\rgb565_to_gray.v":5)
+Compiling module 'stream_window_3x3(WIDTH=1280,HEIGHT=720)'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\shared_algorithm\stream_window_3x3.v":4)
+Extracting RAM for identifier 'bank0'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\shared_algorithm\stream_window_3x3.v":15)
+Extracting RAM for identifier 'bank1'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\shared_algorithm\stream_window_3x3.v":16)
+Compiling module 'gaussian_3x3'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\shared_algorithm\gaussian_3x3.v":4)
+Compiling module 'sobel_3x3'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\shared_algorithm\sobel_3x3.v":4)
+Compiling module 'stream_window_3x3(WIDTH=1278,HEIGHT=718)'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\shared_algorithm\stream_window_3x3.v":4)
+Extracting RAM for identifier 'bank0'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\shared_algorithm\stream_window_3x3.v":15)
+Extracting RAM for identifier 'bank1'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\shared_algorithm\stream_window_3x3.v":16)
+Compiling module 'stream_delay(BITS=9,DELAY=1656)'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\shared_algorithm\stream_delay.v":4)
+Extracting RAM for identifier 'memory'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\shared_algorithm\stream_delay.v":12)
+WARN  (EX3791) : Expression size 12 truncated to fit in target size 11("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\shared_algorithm\stream_delay.v":27)
+Compiling module 'stream_delay(BITS=9,DELAY=1655)'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\shared_algorithm\stream_delay.v":4)
+Extracting RAM for identifier 'memory'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\shared_algorithm\stream_delay.v":12)
+WARN  (EX3791) : Expression size 12 truncated to fit in target size 11("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\shared_algorithm\stream_delay.v":27)
+Compiling module 'stream_delay(BITS=30,DELAY=3312)'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\shared_algorithm\stream_delay.v":4)
+Extracting RAM for identifier 'memory'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\shared_algorithm\stream_delay.v":12)
+WARN  (EX3791) : Expression size 13 truncated to fit in target size 12("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\shared_algorithm\stream_delay.v":27)
+Compiling module 'brightness_adjust'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\shared_algorithm\brightness_adjust.v":4)
+Compiling module 'red_ball_overlay(SHOW_SERVO_DEBUG=2)'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\image_processing\red_ball_overlay.v":6)
+WARN  (EX3791) : Expression size 10 truncated to fit in target size 3("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\image_processing\red_ball_overlay.v":33)
+WARN  (EX3791) : Expression size 10 truncated to fit in target size 3("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\image_processing\red_ball_overlay.v":33)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 3("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\image_processing\red_ball_overlay.v":33)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 3("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\image_processing\red_ball_overlay.v":33)
+WARN  (EX3791) : Expression size 13 truncated to fit in target size 12("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\image_processing\red_ball_overlay.v":83)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 16("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\image_processing\red_ball_overlay.v":99)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 13("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\image_processing\red_ball_overlay.v":203)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 13("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\image_processing\red_ball_overlay.v":204)
+Compiling module 'camera_servo_uart'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\image_processing\camera_servo_uart.v":5)
+Compiling module 'servo_measurement_cdc'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\image_processing\servo_measurement_cdc.v":6)
+Compiling module 'uart_rx'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\shared_algorithm\uart_rx.v":2)
+Compiling module 'uart_tx'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\shared_algorithm\uart_tx.v":2)
+Compiling module 'servo_uart_control(AUTO_SUPPORT=1)'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\shared_algorithm\servo_uart_control.v":3)
+WARN  (EX3791) : Expression size 13 truncated to fit in target size 12("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\shared_algorithm\servo_uart_control.v":225)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 12("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\shared_algorithm\servo_uart_control.v":228)
+WARN  (EX3791) : Expression size 13 truncated to fit in target size 12("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\shared_algorithm\servo_uart_control.v":232)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 12("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\shared_algorithm\servo_uart_control.v":235)
+Compiling module 'DVI_TX_Top'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\dvi_tx\DVI_TX_Top.v":1073)
+Compiling module '**'("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\dvi_tx\DVI_TX_Top.v":1072)
+NOTE  (EX0101) : Current top module is "top"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "lut_ov5640_rgb565" instantiated to "lut_ov5640_rgb565_m0" is swept in optimizing("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\top.v":244)
+WARN  (NL0002) : The module "brightness_adjust" instantiated to "bright_converter" is swept in optimizing("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\image_processing\display_spatial_ops.v":93)
+WARN  (NL0002) : The module "rgb565_to_gray" instantiated to "gray_converter" is swept in optimizing("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\image_processing\display_spatial_ops.v":77)
+WARN  (NL0002) : The module "timing_check" instantiated to "timing_check_5640" is swept in optimizing("C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\top.v":187)
+[95%] Generate netlist file "C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\impl\gwsynthesis\OV5640_HDMI720P.vg" completed
+WARN  (CK3000) : Can't calculate clocks' relationship between: "u_ddr3/gw3_top/u_ddr_phy_top/fclkdiv/CLKOUT.default_gen_clk" and "cmos_pclk"
+WARN  (CK3000) : Can't calculate clocks' relationship between: "cmos_vsync" and "u_ddr3/gw3_top/u_ddr_phy_top/fclkdiv/CLKOUT.default_gen_clk"
+WARN  (CK3000) : Can't calculate clocks' relationship between: "cmos_pclk" and "u_ddr3/gw3_top/u_ddr_phy_top/fclkdiv/CLKOUT.default_gen_clk"
+[100%] Generate report file "C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\impl\gwsynthesis\OV5640_HDMI720P_syn.rpt.html" completed
+GowinSynthesis finish
+Reading netlist file: "C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\impl\gwsynthesis\OV5640_HDMI720P.vg"
+Parsing netlist file "C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\impl\gwsynthesis\OV5640_HDMI720P.vg" completed
+Processing netlist completed
+Reading constraint file: "C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\src\OV5640_HDMI720P.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+WARN  (PR1014) : Generic routing resource will be used to clock signal 'cmos_vsync_d' by the specified constraint. And then it may lead to the excessive delay or skew
+WARN  (PR1014) : Generic routing resource will be used to clock signal 'cmos_pclk_d' by the specified constraint. And then it may lead to the excessive delay or skew
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\impl\pnr\OV5640_HDMI720P.power.html" completed
+Generate file "C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\impl\pnr\OV5640_HDMI720P.pin.html" completed
+Generate file "C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\impl\pnr\OV5640_HDMI720P.rpt.html" completed
+Generate file "C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\impl\pnr\OV5640_HDMI720P.rpt.txt" completed
+Generate file "C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\impl\pnr\OV5640_HDMI720P.tr.html" completed
+Wed Oct 28 17:10:29 2026
+
+Build output: C:\Users\Lenovo\Desktop\gaoyun\.fpga-local\shape_20261028_v8d_diag\impl\pnr\OV5640_HDMI720P.fs
+The verified recovery bitstream is stored separately in bitstreams/.

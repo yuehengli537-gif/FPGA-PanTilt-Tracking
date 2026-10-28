@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-28",
+  "scope": "submission copy, no hardware operations",
+  "upstream_commit": "3afd23f8d3c752da9baa468c33a10c98a1d251e2",
+  "fpga_rtl_constraints_ip_changed": false,
+  "ui_change": "Three project-name strings only",
+  "ui_unit_tests": 55,
+  "ui_unit_tests_passed": true,
+  "ui_initial_environment_issue": "Default temp directory permission denied; repeated with workspace-local test temp directory, all passed. Original log retained.",
+  "relocated_rtl_minrun_passed": true,
+  "icarus_driver_anomaly_retained": true,
+  "project_references_present": 47,
+  "imported_design_test_files_unchanged": 74,
+  "powershell_syntax_passed": true,
+  "full_hardware_rebuild_performed": false,
+  "reason": "Exact imported design source/constraints/IP and released bitstream unchanged; full original regression evidence preserved."
+}

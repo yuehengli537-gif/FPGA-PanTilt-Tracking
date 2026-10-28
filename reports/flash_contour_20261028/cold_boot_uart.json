@@ -1,0 +1,56 @@
+{
+  "schema": "pt20-uart-soak-v1",
+  "started_utc": "2026-10-28T09:42:17.676+00:00",
+  "port": "COM12",
+  "baud": 115200,
+  "exercise_servo_power_off": false,
+  "position_semantics": "PWM command estimates; not measured shaft angles",
+  "watchdog_scope": "Read-only queries feed the watchdog; no control commands are sent",
+  "events": [
+    {
+      "utc": "2026-10-28T09:42:17.694+00:00",
+      "elapsed_s": 0.016,
+      "event": "transport_error",
+      "operation": "open",
+      "error_kind": "transport_open_error",
+      "type": "SerialException",
+      "message": "could not open port 'COM12': FileNotFoundError(2, '系统找不到指定的文件。', None, 2)"
+    },
+    {
+      "utc": "2026-10-28T09:42:17.694+00:00",
+      "elapsed_s": 0.016,
+      "event": "failure",
+      "type": "SerialException",
+      "message": "could not open port 'COM12': FileNotFoundError(2, '系统找不到指定的文件。', None, 2)",
+      "error_kind": "transport_open_error"
+    }
+  ],
+  "assertions": [],
+  "ok": false,
+  "read_only": true,
+  "error_kind": "transport_open_error",
+  "requested_duration_s": 10.0,
+  "poll_interval_s": 0.25,
+  "request_timeout_s": 0.7,
+  "latency_scope": "Successful request round trips, including transport write and read",
+  "latency_clock": "time.perf_counter",
+  "statistics": {
+    "request_count": 0,
+    "success_count": 0,
+    "timeout_count": 0,
+    "transport_error_count": 1,
+    "max_latency_ms": 0.0,
+    "sequence_wrap_count": 0,
+    "status_sample_count": 0
+  },
+  "error": {
+    "type": "SerialException",
+    "message": "could not open port 'COM12': FileNotFoundError(2, '系统找不到指定的文件。', None, 2)",
+    "error_kind": "transport_open_error"
+  },
+  "completed": false,
+  "handshake_complete": false,
+  "finished_utc": "2026-10-28T09:42:17.694+00:00",
+  "duration_s": 0.016,
+  "assertion_count": 0
+}

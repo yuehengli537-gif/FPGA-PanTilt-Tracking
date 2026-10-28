@@ -1,0 +1,2 @@
+PASS red_ball_minrun: WIDTH4 continuous rows, final red pixel adjacent VS, exact N+12, 80 pixels once, MIN_RUN1 clamped4, three-pixel runs rejected; frames=3
+tb_red_ball_minrun.sv:61: $finish called at 2996000 (1ps)

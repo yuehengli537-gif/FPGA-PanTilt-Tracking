@@ -1,0 +1,12 @@
+camera_servo_uart.v:5: warning: timescale for camera_servo_uart inherited from another file.
+stream_window_3x3.v:1: ...: The inherited timescale is here.
+servo_measurement_cdc.v:6: warning: timescale for servo_measurement_cdc inherited from another file.
+red_ball_tracking.v:1: ...: The inherited timescale is here.
+red_ball_detector.v:209: warning: @* is sensitive to all 3 words in array 'bottom_edge'.
+tb_red_ball_pipeline.sv:16: warning: Instantiating module red_ball_tracking with dangling input port 23 (servo_pan_us) floating.
+tb_red_ball_pipeline.sv:16: warning: Instantiating module red_ball_tracking with dangling input port 24 (servo_tilt_us) floating.
+tb_red_ball_pipeline.sv:16: warning: Instantiating module red_ball_tracking with dangling input port 25 (servo_pan_limit) floating.
+tb_red_ball_pipeline.sv:16: warning: Instantiating module red_ball_tracking with dangling input port 26 (servo_tilt_limit) floating.
+tb_red_ball_pipeline.sv:16: warning: Instantiating module red_ball_tracking with dangling input port 27 (servo_enabled) floating.
+tb_red_ball_pipeline.sv:16: warning: Instantiating module red_ball_tracking with dangling input port 28 (servo_source_alive) floating.
+tb_red_ball_pipeline.sv:16: warning: Instantiating module red_ball_tracking with dangling input port 29 (servo_stale) floating.

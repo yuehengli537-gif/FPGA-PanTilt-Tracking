@@ -1,0 +1,2 @@
+PASS pipeline 1280x720 frames=4 latency=3315 control_checks=14414424 passthrough_pixels=43392 updates=3
+tb_red_ball_pipeline.sv:160: $finish called at 48081266000 (1ps)

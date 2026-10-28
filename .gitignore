@@ -1,0 +1,15 @@
+.tools/
+.build/
+**/__pycache__/
+*.pyc
+reports/runtime/
+fpga/impl/*
+!fpga/impl/project_process_config.json
+!fpga/impl/OV5640_HDMI720P_process_config.json
+algorithm_sim/build/
+**/temp/
+*.bak
+*.tmp
+Thumbs.db
+.DS_Store
+submission-artifacts/

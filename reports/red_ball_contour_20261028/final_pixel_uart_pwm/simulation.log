@@ -1,0 +1,10 @@
+PASS real pixels direction error=60,0 command=1506,1500 measured=1506,1500
+PASS real pixels direction error=-60,0 command=1500,1500 measured=1500,1500
+PASS real pixels direction error=0,60 command=1500,1506 measured=1500,1506
+PASS real pixels direction error=0,-60 command=1500,1500 measured=1500,1500
+PASS real blank pixels produce HOLD/LOST and freeze both PWM outputs
+PASS three-frame real-pixel reacquisition resumes auto without another mode command
+PASS stopped camera VS freezes PWM despite continuing valid display/CDC updates
+PASS camera VS recovery plus fresh pixel relock resumes automatic PWM
+PASS tb_camera_servo_pixels: pixels/tracker/guard/CDC/UART/PWM frames=104 tracker_updates=104 cdc_updates=105 RPCs=22 measured_pulses=102
+C:\Users\Lenovo\Desktop\gaoyun\Tang-Primer-20k-camera-red-ball\algorithm_sim\tb\tb_camera_servo_pixels.sv:243: $finish called at 1027846216863 (1ps)

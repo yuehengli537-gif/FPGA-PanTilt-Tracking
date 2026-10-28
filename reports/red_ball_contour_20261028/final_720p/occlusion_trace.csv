@@ -1,0 +1,4 @@
+frame,visible,ball_x,ball_y,state,valid,center_x,center_y,error_x,follow_x,follow_y
+0,1,320,360,1,0,0,0,0,0,0
+1,1,320,360,1,0,0,0,0,0,0
+2,1,320,360,2,1,320,360,-320,-1,0

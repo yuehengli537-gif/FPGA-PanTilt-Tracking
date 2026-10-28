@@ -1,0 +1,4 @@
+scene,expected,valid,left,top,right,bottom,area,reference_area,frame
+1,1,1,600,321,680,399,4760,4760,1
+4,1,1,601,321,679,399,4942,4942,2
+14,1,1,1199,640,1279,718,5023,5023,3

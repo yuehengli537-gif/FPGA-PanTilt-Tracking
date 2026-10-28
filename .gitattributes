@@ -1,0 +1,2 @@
+# Preserve the verified source/IP bytes and portable manifest hashes on checkout.
+* -text

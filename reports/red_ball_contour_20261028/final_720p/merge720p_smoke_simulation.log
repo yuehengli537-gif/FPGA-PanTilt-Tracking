@@ -1,0 +1,5 @@
+SCENE merge1 pass expected1 area4760
+SCENE merge4 pass expected1 area4942
+SCENE merge14 pass expected1 area5023
+PASS red_ball_merge 1280x720: 7 checks 3 frames, 4 candidate slots; top-notch two/three-branch union, one-row gap, exact once-only pixel area, negative connected non-balls, N+12
+tb_red_ball_merge.sv:120: $finish called at 27648596000 (1ps)

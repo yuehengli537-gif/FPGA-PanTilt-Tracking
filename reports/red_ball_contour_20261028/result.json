@@ -1,0 +1,69 @@
+{
+  "variant": "V8d",
+  "bitstream_sha256": "bec75258735164b027cc1262cc8fb56b59b3e12350bf323288fb8ffc85606456",
+  "archive_sha256": "bfbe920ce0175185ad3321fdc3d90ad1c6f35549a72b5aa454095e4e08f3392c",
+  "archive": "bitstreams\\camera_uart_shape_diag_v8d_20261028.zip",
+  "hardware_downloaded": true,
+  "physical_validation": {
+    "source": "user report in chat 2026-10-28",
+    "ball_alone_green": true,
+    "frontal_square_alone_orange": true,
+    "simultaneous_objects": {
+      "separated_ball_green_stable": true,
+      "separated_square_not_green": true,
+      "large_overlap_or_occlusion_orange": true,
+      "source": "user reports normal except large overlap"
+    },
+    "servo_follow_tested": true,
+    "shape_validation_passed_in_tested_scene": true,
+    "follows_ball_not_square": true,
+    "pauses_when_occluded": true,
+    "resumes_after_reappearance": true,
+    "stop_button_effective": true,
+    "servo_power_off_during_shape_only_test": true,
+    "servo_power_off_confirmed_after_follow_test": true,
+    "follow_user_observation": "只跟红球，遮挡暂停，露出后恢复，停止有效"
+  },
+  "flash_written": true,
+  "servo_5v_off_user_confirmed": true,
+  "candidate_slots": 3,
+  "sram_download_passed": true,
+  "programmer_user_code": "0x000089E8",
+  "programmer_status": "0x00006020",
+  "first_download_attempt": "cable failed to open, aborted before writing",
+  "retry_after_user_usb_reconnect": "success",
+  "short_regressions_passed": 9,
+  "pixel_uart_pwm_simulation_passed": true,
+  "uart": {
+    "port": "COM12",
+    "passed": true,
+    "statistics": {
+      "request_count": 42,
+      "success_count": 42,
+      "timeout_count": 0,
+      "transport_error_count": 0,
+      "max_latency_ms": 4.302,
+      "sequence_wrap_count": 0,
+      "status_sample_count": 40
+    }
+  },
+  "configuration": {
+    "pwm_disabled_verified": true,
+    "position_command_unchanged": true,
+    "enable_sent": false,
+    "target_sent": false,
+    "mount_angle_limits_deg": [
+      0,
+      180,
+      -45,
+      45
+    ]
+  },
+  "final_720p_simulation_passed": true,
+  "simulation_compiler_note": "Icarus native driver may exit 0xC0000005; fresh complete VVP checked, simulation exit and source hashes separately verified.",
+  "flash_update_requested_after_validation": true,
+  "flash_program_verify_passed": true,
+  "flash_evidence": "reports/flash_contour_20261028/result.json",
+  "cold_boot_verified": true,
+  "cold_boot_uart_verified": true
+}

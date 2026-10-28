@@ -1,0 +1,84 @@
+{
+    "simulation_passed":  true,
+    "status":  "passed",
+    "run_directory":  "C:\\Users\\Lenovo\\Desktop\\gaoyun\\Tang-Primer-20k-camera-red-ball\\reports\\runtime\\red_ball_shape\\20261028_171324_1fe4d689",
+    "tests":  [
+                  {
+                      "name":  "contour3",
+                      "parameters":  {
+                                         "CANDIDATES":  3
+                                     },
+                      "passed":  true,
+                      "compiler_exit_code":  -1073741819,
+                      "compiler_clean":  false,
+                      "compiler_known_exit_anomaly":  true,
+                      "simulation_exit_code":  0,
+                      "vvp_sha256":  "68D785F994756FEAF0EB192A534EF953FC5CD4A8E83203E006BBF8FAF82A9708",
+                      "messages":  [
+                                       "PASS red_ball_contour: 52 checks, 25 frames, 3 candidate slots; damaged flat squares, rotations, glossy balls, light finger attachment, larger distractors, slot reuse/overflow, edges, DE bubbles and N+12 publication",
+                                       "LIMITATION: synthetic silhouette regressions do not prove 3-D sphere semantics or arbitrary illumination tolerance."
+                                   ]
+                  },
+                  {
+                      "name":  "minrun",
+                      "parameters":  {
+
+                                     },
+                      "passed":  true,
+                      "compiler_exit_code":  -1073741819,
+                      "compiler_clean":  false,
+                      "compiler_known_exit_anomaly":  true,
+                      "simulation_exit_code":  0,
+                      "vvp_sha256":  "ED331FA2369A032B3BCAFF841690894E154F2F41FED07EEF3902451CE2EF20FB",
+                      "messages":  [
+                                       "PASS red_ball_minrun: WIDTH4 continuous rows, final red pixel adjacent VS, exact N+12, 80 pixels once, MIN_RUN1 clamped4, three-pixel runs rejected; frames=3"
+                                   ]
+                  },
+                  {
+                      "name":  "merge3",
+                      "parameters":  {
+                                         "CANDIDATES":  3
+                                     },
+                      "passed":  true,
+                      "compiler_exit_code":  -1073741819,
+                      "compiler_clean":  false,
+                      "compiler_known_exit_anomaly":  true,
+                      "simulation_exit_code":  0,
+                      "vvp_sha256":  "F2523893B75116E8BBAB0DC44C32BC462301B465547F83BFBDF12DE1BA9EC30D",
+                      "messages":  [
+                                       "PASS red_ball_merge 240x180: 31 checks 15 frames, 3 candidate slots; top-notch two/three-branch union, one-row gap, exact once-only pixel area, negative connected non-balls, N+12"
+                                   ]
+                  }
+              ],
+    "source_sha256":  {
+                          "C:\\Users\\Lenovo\\Desktop\\gaoyun\\Tang-Primer-20k-camera-red-ball\\algorithm_sim\\tb\\tb_red_ball_multicolor.sv":  "E30008F36808D4AE90E86E4490B56EB032CF407CC2D6671216481A1B5EFAA349",
+                          "C:\\Users\\Lenovo\\Desktop\\gaoyun\\Tang-Primer-20k-camera-red-ball\\algorithm_sim\\tb\\tb_red_ball_contour.sv":  "D38C6348EA7273CCF398F02A94CCB7DB122E3D92A9A88257DDE68B6488D15E61",
+                          "C:\\Users\\Lenovo\\Desktop\\gaoyun\\Tang-Primer-20k-camera-red-ball\\algorithm_sim\\tb\\tb_red_ball_follow.sv":  "8DFDE78B97A74DF2C4270383A2D16E9DF414122D7D479BC13731B5F1D0DBB25A",
+                          "C:\\Users\\Lenovo\\Desktop\\gaoyun\\Tang-Primer-20k-camera-red-ball\\algorithm_sim\\tb\\tb_red_ball_shape.sv":  "F2A8816A1B90BD959DEA6460ECE213675187E6D60F51ABB14E81117A0C3751FD",
+                          "C:\\Users\\Lenovo\\Desktop\\gaoyun\\Tang-Primer-20k-camera-red-ball\\algorithm_sim\\tb\\tb_red_ball_minrun.sv":  "3C873A7AFA0F7F92060B70C94933D9FE11EA1737FBCF3EF0176E3C4103E445B0",
+                          "C:\\Users\\Lenovo\\Desktop\\gaoyun\\Tang-Primer-20k-camera-red-ball\\algorithm_sim\\tb\\tb_red_ball_overlay.sv":  "166FC73EC3A869F7F6F575243D8CA3A5BF846DE49F22F1E1228A6B02F9F70CFF",
+                          "C:\\Users\\Lenovo\\Desktop\\gaoyun\\Tang-Primer-20k-camera-red-ball\\algorithm_sim\\tb\\tb_red_ball_merge.sv":  "D011A03633EFB6AD7EE9327DA2F87AE26682450CA40593560EBE8DA0CF58069A",
+                          "C:\\Users\\Lenovo\\Desktop\\gaoyun\\Tang-Primer-20k-camera-red-ball\\fpga\\src\\image_processing\\display_spatial_ops.v":  "1C7D2CECB948B952D378F8839149E45D247539EF8202D7785C683A946F2CD9DC",
+                          "C:\\Users\\Lenovo\\Desktop\\gaoyun\\Tang-Primer-20k-camera-red-ball\\fpga\\src\\image_processing\\pan_tilt_controller.v":  "E7E28992B2C15A26B75E693E7BA66648746F27C80F425A2CB5A7D85E3C4E75BC",
+                          "C:\\Users\\Lenovo\\Desktop\\gaoyun\\Tang-Primer-20k-camera-red-ball\\algorithm_sim\\rtl\\stream_delay.v":  "F72A1161917040F0D9EC49CD15F71F8D2A0AA36836A552327C4176B794C08633",
+                          "C:\\Users\\Lenovo\\Desktop\\gaoyun\\Tang-Primer-20k-camera-red-ball\\algorithm_sim\\rtl\\gaussian_3x3.v":  "CABECB207F55610956F423D9898D04A297D8D12D4A6EF3F3DBE06BFA1F11984A",
+                          "C:\\Users\\Lenovo\\Desktop\\gaoyun\\Tang-Primer-20k-camera-red-ball\\algorithm_sim\\rtl\\spatial_filter_top.v":  "3B0C2798A6D0DBC243B940D081E1C8D017BF86515D6EDD7B79FFDEF308622ECC",
+                          "C:\\Users\\Lenovo\\Desktop\\gaoyun\\Tang-Primer-20k-camera-red-ball\\fpga\\src\\image_processing\\red_ball_overlay.v":  "47C670304892A2AEC41E414D56DB980A136900CB480C1D39BF3EE1312CE4F2A2",
+                          "C:\\Users\\Lenovo\\Desktop\\gaoyun\\Tang-Primer-20k-camera-red-ball\\fpga\\src\\image_processing\\display_point_ops.v":  "066A1608BCAD11BA9510818563B5B48252B571731D3052407AC186D05F2265D3",
+                          "C:\\Users\\Lenovo\\Desktop\\gaoyun\\Tang-Primer-20k-camera-red-ball\\fpga\\src\\image_processing\\servo_measurement_cdc.v":  "837B15C545EC77728592AA610538D62B20B843665D7B8FCD0D0509D65C5245B0",
+                          "C:\\Users\\Lenovo\\Desktop\\gaoyun\\Tang-Primer-20k-camera-red-ball\\algorithm_sim\\rtl\\background_bbox.v":  "B91BBC6B4C82F1BED1F709544A7E43DB2A29E667B2F282A706FC57F701B895E7",
+                          "C:\\Users\\Lenovo\\Desktop\\gaoyun\\Tang-Primer-20k-camera-red-ball\\fpga\\src\\image_processing\\red_ball_lock.v":  "4F24D872AFEE9882746640227F280B019560914D700A0840BB68C928A20A3747",
+                          "C:\\Users\\Lenovo\\Desktop\\gaoyun\\Tang-Primer-20k-camera-red-ball\\algorithm_sim\\rtl\\brightness_adjust.v":  "14BBAB30A76DE8B1EE95513087588AA80FF0F70415CD871CA2068EF17CA6735C",
+                          "C:\\Users\\Lenovo\\Desktop\\gaoyun\\Tang-Primer-20k-camera-red-ball\\algorithm_sim\\tb\\tb_red_ball_lock.sv":  "5CEF7988936A3B105DD3EB09DB7BEFF6E54704DB687FC42FC8BD88D5B48E4149",
+                          "C:\\Users\\Lenovo\\Desktop\\gaoyun\\Tang-Primer-20k-camera-red-ball\\algorithm_sim\\rtl\\algorithm_top.v":  "0488611AF7FC7B9D563038693DDBF2F5D7F8126441D28615D6DB89ADCBA72926",
+                          "C:\\Users\\Lenovo\\Desktop\\gaoyun\\Tang-Primer-20k-camera-red-ball\\fpga\\src\\image_processing\\camera_servo_uart.v":  "7738485E79DE7D9D40BB1777C73EFED6A5E169D8A8B4F9376B70F8680AAF440F",
+                          "C:\\Users\\Lenovo\\Desktop\\gaoyun\\Tang-Primer-20k-camera-red-ball\\fpga\\src\\image_processing\\red_ball_detector.v":  "DFC1C24219FBA8DA6460EA2F98A20769CFDB17799E4C8A44FF8BDBEB86BAB688",
+                          "C:\\Users\\Lenovo\\Desktop\\gaoyun\\Tang-Primer-20k-camera-red-ball\\algorithm_sim\\tb\\tb_red_ball_detector.sv":  "61D59C9F2AA52762DCC9EB1D5F7DFA5802FB910F010A3DB4EB73A956E377618B",
+                          "C:\\Users\\Lenovo\\Desktop\\gaoyun\\Tang-Primer-20k-camera-red-ball\\algorithm_sim\\rtl\\sobel_3x3.v":  "297D4422EF1F64422C266C74891A12E84E207DDDF55CBA065821BED3B1D6F19E",
+                          "C:\\Users\\Lenovo\\Desktop\\gaoyun\\Tang-Primer-20k-camera-red-ball\\algorithm_sim\\tb\\tb_red_ball_pipeline.sv":  "9D07A5057E707882DEBCFB0DB3C40F9549D0CD811848EE3670560644786B4107",
+                          "C:\\Users\\Lenovo\\Desktop\\gaoyun\\Tang-Primer-20k-camera-red-ball\\algorithm_sim\\rtl\\stream_window_3x3.v":  "8EA0CF7B16E32CE6EEB5AEE6CCD2049BA4754C54E1A5FB4E967B6129ED2A9B14",
+                          "C:\\Users\\Lenovo\\Desktop\\gaoyun\\Tang-Primer-20k-camera-red-ball\\algorithm_sim\\rtl\\rgb565_to_gray.v":  "F6B581C9DDD88AF7ACC1D20DEE408C2D8472505C59B82ECC0FF097009AF98C2C",
+                          "C:\\Users\\Lenovo\\Desktop\\gaoyun\\Tang-Primer-20k-camera-red-ball\\fpga\\src\\image_processing\\red_ball_tracking.v":  "85435A989F15092EC4A0788C95002EAE8F9DE78D2C3C7B117D67C665F4BD488C"
+                      },
+    "completed_at":  "2026-10-28T17:17:02.3966224+08:00"
+}

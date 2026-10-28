@@ -1,0 +1,33 @@
+{
+  "simulation_passed": true,
+  "status": "passed",
+  "run_directory": "C:\\Users\\Lenovo\\Desktop\\gaoyun\\Tang-Primer-20k-camera-red-ball\\reports\\runtime\\camera_servo_pixels\\20261028_171329_b9255aba",
+  "compiler_exit_code": -1073741819,
+  "compiler_clean": false,
+  "compiler_known_exit_anomaly": true,
+  "simulation_exit_code": 0,
+  "source_sha256": {
+    "C:\\Users\\Lenovo\\Desktop\\gaoyun\\Tang-Primer-20k-camera-red-ball\\fpga\\src\\image_processing\\pan_tilt_controller.v": "E7E28992B2C15A26B75E693E7BA66648746F27C80F425A2CB5A7D85E3C4E75BC",
+    "C:\\Users\\Lenovo\\Desktop\\gaoyun\\Tang-Primer-20k-camera-red-ball\\algorithm_sim\\rtl\\brightness_adjust.v": "14BBAB30A76DE8B1EE95513087588AA80FF0F70415CD871CA2068EF17CA6735C",
+    "C:\\Users\\Lenovo\\Desktop\\gaoyun\\Tang-Primer-20k-camera-red-ball\\algorithm_sim\\tb\\tb_camera_servo_pixels.sv": "40FF42C73968A7469D769CC55478B87A3C9DC9F2A5E695D59D90A531487E9862",
+    "C:\\Users\\Lenovo\\Desktop\\gaoyun\\Tang-Primer-20k-camera-red-ball\\servo_uart\\src\\uart_rx.v": "3D2FF26CBD217EA5F3E01377DE07423ACEBA175A3A28C5A908AC14D1ABF4854E",
+    "C:\\Users\\Lenovo\\Desktop\\gaoyun\\Tang-Primer-20k-camera-red-ball\\servo_uart\\tb\\uart_host_model.sv": "78DAC6AA8F664F1ED9B75D47C7F606D2D61743D7FD545E7A7BF9D5C1B0897DDA",
+    "C:\\Users\\Lenovo\\Desktop\\gaoyun\\Tang-Primer-20k-camera-red-ball\\fpga\\src\\image_processing\\red_ball_lock.v": "4F24D872AFEE9882746640227F280B019560914D700A0840BB68C928A20A3747",
+    "C:\\Users\\Lenovo\\Desktop\\gaoyun\\Tang-Primer-20k-camera-red-ball\\servo_uart\\src\\uart_tx.v": "14EF4044D0825898E34E64396605BFF418147390298AEA4CC026487ABBAEBE0D",
+    "C:\\Users\\Lenovo\\Desktop\\gaoyun\\Tang-Primer-20k-camera-red-ball\\algorithm_sim\\rtl\\rgb565_to_gray.v": "F6B581C9DDD88AF7ACC1D20DEE408C2D8472505C59B82ECC0FF097009AF98C2C",
+    "C:\\Users\\Lenovo\\Desktop\\gaoyun\\Tang-Primer-20k-camera-red-ball\\algorithm_sim\\rtl\\stream_delay.v": "F72A1161917040F0D9EC49CD15F71F8D2A0AA36836A552327C4176B794C08633",
+    "C:\\Users\\Lenovo\\Desktop\\gaoyun\\Tang-Primer-20k-camera-red-ball\\algorithm_sim\\rtl\\spatial_filter_top.v": "3B0C2798A6D0DBC243B940D081E1C8D017BF86515D6EDD7B79FFDEF308622ECC",
+    "C:\\Users\\Lenovo\\Desktop\\gaoyun\\Tang-Primer-20k-camera-red-ball\\fpga\\src\\image_processing\\camera_servo_uart.v": "7738485E79DE7D9D40BB1777C73EFED6A5E169D8A8B4F9376B70F8680AAF440F",
+    "C:\\Users\\Lenovo\\Desktop\\gaoyun\\Tang-Primer-20k-camera-red-ball\\algorithm_sim\\rtl\\stream_window_3x3.v": "8EA0CF7B16E32CE6EEB5AEE6CCD2049BA4754C54E1A5FB4E967B6129ED2A9B14",
+    "C:\\Users\\Lenovo\\Desktop\\gaoyun\\Tang-Primer-20k-camera-red-ball\\fpga\\src\\image_processing\\red_ball_detector.v": "DFC1C24219FBA8DA6460EA2F98A20769CFDB17799E4C8A44FF8BDBEB86BAB688",
+    "C:\\Users\\Lenovo\\Desktop\\gaoyun\\Tang-Primer-20k-camera-red-ball\\fpga\\src\\image_processing\\red_ball_overlay.v": "47C670304892A2AEC41E414D56DB980A136900CB480C1D39BF3EE1312CE4F2A2",
+    "C:\\Users\\Lenovo\\Desktop\\gaoyun\\Tang-Primer-20k-camera-red-ball\\servo_uart\\src\\servo_uart_control.v": "A698CB6EDAA3ADD31C529E08E0F00303A978067EEDDB333941ACE1D07A43D300",
+    "C:\\Users\\Lenovo\\Desktop\\gaoyun\\Tang-Primer-20k-camera-red-ball\\algorithm_sim\\rtl\\sobel_3x3.v": "297D4422EF1F64422C266C74891A12E84E207DDDF55CBA065821BED3B1D6F19E",
+    "C:\\Users\\Lenovo\\Desktop\\gaoyun\\Tang-Primer-20k-camera-red-ball\\algorithm_sim\\rtl\\gaussian_3x3.v": "CABECB207F55610956F423D9898D04A297D8D12D4A6EF3F3DBE06BFA1F11984A",
+    "C:\\Users\\Lenovo\\Desktop\\gaoyun\\Tang-Primer-20k-camera-red-ball\\fpga\\src\\image_processing\\red_ball_tracking.v": "85435A989F15092EC4A0788C95002EAE8F9DE78D2C3C7B117D67C665F4BD488C",
+    "C:\\Users\\Lenovo\\Desktop\\gaoyun\\Tang-Primer-20k-camera-red-ball\\fpga\\src\\image_processing\\display_spatial_ops.v": "1C7D2CECB948B952D378F8839149E45D247539EF8202D7785C683A946F2CD9DC",
+    "C:\\Users\\Lenovo\\Desktop\\gaoyun\\Tang-Primer-20k-camera-red-ball\\fpga\\src\\image_processing\\servo_measurement_cdc.v": "837B15C545EC77728592AA610538D62B20B843665D7B8FCD0D0509D65C5245B0"
+  },
+  "vvp_sha256": "442229E8A81A6122A151225CF18F9182071720DFC81AB11A1D0B89FCB64A6573",
+  "completed_at": "2026-10-28T17:21:13.8699204+08:00"
+}
